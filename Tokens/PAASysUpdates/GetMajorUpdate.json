@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "globalId": "9335ee94-5a23-4ce2-b920-18e2e1ee84b8",
+  "namespace": {
+    "id": 1,
+    "globalId": "6f7288a6-2467-4686-a279-f4bc53340d52",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "GetMajorUpdate",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "url": "https://services.plantanapp.com/api/GetNextMajorVersion?CurrentVersion=[TknParams:CurrentVersion]&IsDev=[TknParams:IsDev]",
+    "get": "",
+    "post": "",
+    "headers": "",
+    "type": "http"
+  }
+}

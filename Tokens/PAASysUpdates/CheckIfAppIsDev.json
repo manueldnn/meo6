@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "globalId": "9a77ea74-820f-41e6-8ac4-8e57fc143a4d",
+  "namespace": {
+    "id": 1,
+    "globalId": "6f7288a6-2467-4686-a279-f4bc53340d52",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "CheckIfAppIsDev",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "url": "https://services.plantanapp.com/api/AppDevCheck?URL=[TknParams:URL]",
+    "get": "",
+    "post": "",
+    "headers": "",
+    "type": "http"
+  }
+}

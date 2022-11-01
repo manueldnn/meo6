@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "globalId": "87341162-b209-435a-96a9-6f00a03ac6f2",
+  "namespace": {
+    "id": 2,
+    "globalId": "cf7bc041-1269-4d1c-b33a-88d4e5ee5848",
+    "name": "PAASysAutomation",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "JobStatusLabel",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "language": "csharp",
+    "compiledRazorLocation": "host",
+    "additionalAssemblies": "",
+    "debug": false,
+    "type": "razor"
+  }
+}
